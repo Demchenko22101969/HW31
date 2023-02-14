@@ -1,5 +1,6 @@
 * {
-    
+    width: 100%;
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
@@ -33,9 +34,10 @@ h2 {
    }
 
 .container_video_left {
+
     height: 195px;
     width: 300px;
-    margin: auto;
+    margin: 0 auto;
    }
 
 .container_video_right {
@@ -45,4 +47,8 @@ h2 {
    }
    h6 {
     text-align: center;
+   }
+   .vid {
+    margin: 0 auto;
+    width: 83%;
    }
